@@ -17,6 +17,7 @@ use Illuminate\Support\Facades\Route;
 */
 // PublicRoute
 Route::post('register', [AuthController::class, "register"]);
+Route::post('login', [AuthController::class, "login"]);
 
 
 
