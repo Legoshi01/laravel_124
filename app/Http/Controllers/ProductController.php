@@ -89,7 +89,7 @@ class ProductController extends Controller
             'name' => 'update',
             'payload' => $product,
         ];
-        return $result;
+        return response($result,200);
     }
 
     /**
