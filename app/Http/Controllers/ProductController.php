@@ -105,6 +105,6 @@ class ProductController extends Controller
             'name' => 'destroy',
             'payload' => $product
         ];
-        return $result;
+        return response($result,200);
     }
 }
